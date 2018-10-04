@@ -84,6 +84,20 @@ consule.log("It works")
     }  
     return value;
 }
+/**
+ * Calculate area of circle
+  *@param width {number}
+  *@param height {number}
+  *@returns the area of the rectangle
+  */
+ function calculaterectangleArea(radius) {
+    Math(width*height);
+
+}
+function calculateCircleArea(radius) {
+    Math(Math.PI*radius*radius);
+
+}
 
  /*var fotballplayer = {
      name:"David Jensen",
