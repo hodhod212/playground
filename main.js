@@ -118,3 +118,14 @@ return {
  newFotballPlayer.name = "Albert Eistein";
  consule.log(newFotballPlayer);
  consule.log(fotballPlayer);*/
+
+function convertToBinary(){
+var sBinString = '1101011';
+var nMyNumber = parseInt(sBinString, 2);
+alert(nMyNumber);
+}
+function convertToDecimal(){
+var nMyNumber = 11;
+var sBinString = nMyNumber.toString(2);
+alert(sBinString);
+}
