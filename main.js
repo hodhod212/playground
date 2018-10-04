@@ -84,6 +84,9 @@ consule.log("It works")
     }  
     return value;
 }
+var myLibrary = function() {
+
+
 /**
  * Calculate area of circle
   *@param width {number}
@@ -98,6 +101,11 @@ function calculateCircleArea(radius) {
     Math(Math.PI*radius*radius);
 
 }
+return {
+    calculaterectangleArea,
+    calculateCircleArea
+};
+};
 
  /*var fotballplayer = {
      name:"David Jensen",
